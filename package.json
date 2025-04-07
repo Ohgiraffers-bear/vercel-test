@@ -4,12 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "start": "next start",
-    "lint": "next lint",
-    "postinstall": "prisma generate",
-    "build": "prisma generate && next build",
-    "vercel-deploy": "next build && next export",
+    "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview",
     "db": "json-server --watch kb19.json --port 5000"
   },
